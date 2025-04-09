@@ -1,0 +1,24 @@
+.home-ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 4px 0;  /* Further reduced padding */
+    margin: 0;
+  }
+  
+  .home-li {
+    margin: 0 5px;
+    padding: 2px 8px;  /* Very small padding for less height */
+    color: white;
+    font-size: 10px;  /* Smaller font size */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .home-li:hover {
+    background-color: #646464;
+    border-radius: 2px;
+  }
+  

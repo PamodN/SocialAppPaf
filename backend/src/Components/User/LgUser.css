@@ -1,0 +1,117 @@
+.user-card {
+    width: 100%;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 1fr 2fr 0.5fr;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 16px;
+  }
+  
+  .user-row span {
+    font-size: 14px;
+    color: #374151;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .address {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .edit-btn {
+    color: #3b82f6;
+  }
+  
+  .delete-btn {
+    color: #ef4444;
+  }
+  .user-header, .user-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 1fr 2fr 0.5fr;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 16px;
+  }
+  
+  .user-header {
+    background-color: #f9fafb;
+    font-weight: bold;
+    font-size: 14px;
+    color: #111827;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  .user-row {
+    display: flex;
+    padding: 12px 16px;
+    border-bottom: 1px solid #e5e7eb;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .user-cell {
+    flex: 1;
+    padding: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .address-cell {
+    flex: 2;
+  }
+  
+  .actions-cell {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .edit-btn, .delete-btn {
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .edit-btn {
+    background-color: #eef2ff;
+    color: #4338ca;
+  }
+  
+  .delete-btn {
+    background-color: #fee2e2;
+    color: #b91c1c;
+  }
+  
+  .edit-btn:hover {
+    background-color: #e0e7ff;
+  }
+  
+  .delete-btn:hover {
+    background-color: #fecaca;
+  }
+  
